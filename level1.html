@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <meta charset="UTF-8">
+    <title>Charani's Label</title>
+    <style>
+      body {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        margin: 0;
+        padding: 0;
+        background: #f0bbcf;
+      }
+      header {
+        background-color: rgb(224, 17, 104);
+        color: #fff;
+        padding: 20px;
+        
+      }
+      h1 {
+        font-size: 48px;
+        margin: 0;
+        text-align: center;
+        color: rgb(233, 151, 183);
+        font-family: Papyrus;
+      }
+      section {
+        width: 80%;
+        margin: 0 auto;
+        padding: 50px 0;
+        text-align: center;
+      }
+      h2 {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 30px;
+        margin: 0 0 20px;
+        color: #a82964;
+    
+
+      }
+      p {
+        font-size: 24px;
+        margin: 0 0 40px;
+      }
+      img{
+        size: 30px;
+       border-radius: 50px;
+        object-fit: cover;
+        height: 250px;
+        width: 200px;
+
+
+      }
+      button {
+        background-color: #8f2d64;
+       border-radius: 250px;
+        color: #e2ced7;
+        font-size: 15px;
+        padding: 10px 20px;
+        cursor: pointer;
+        margin-top: 15%;
+      }
+      button:hover {
+        background-color: #420523;
+      }
+      .flex-parent {
+        display: flex;
+        }
+        .flex-child {
+        flex: 0.5;
+        
+        }
+
+      footer {
+    background-color: #a50367;
+    color: #fff;
+    padding: 20px; 
+    text-align: center;
+  }
+  .topnav {
+    background-color: rgb(243, 211, 222);
+    overflow: hidden;
+    cursor: all-scroll;
+    shape-margin: 12px;
+}
+.topnav a {
+  float: left;
+  color: #c53a69;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav a:hover {
+  background-color: #83225e;
+  color: rgb(190, 76, 175);
+}
+.topnav-right {
+  float: right;
+}
+.social{
+	width: 100%;
+	height: auto;
+	text-align: center;
+}
+.social a{
+	display: inline-block;
+	padding: 5px;
+
+}
+.social a i{
+	color: #fff;
+    width: 55px;
+    height: 55px;
+    font-size: 25px;
+    line-height: 50px!important;
+    border: 3px solid #fff;
+	opacity: .8;
+transition-property: transform;
+    -moz-transition-property: -moz-transform;
+    -webkit-transition-property: -webkit-transform;
+    transition: all 0.6s cubic-bezier(0.88, -0.48, 0.38, 1.85);
+	border-radius: 50%;
+	
+	}
+.social a i:hover{
+	opacity: 1;
+	border-radius: 20%;
+	
+}
+.social a:hover i.fa-linkedin-in,.social a:hover i.fa-telegram-plane{
+	transition:  .6s ease-in;
+	background: #d859a7; 
+	color: white;
+	border: 3px solid #00aaff; 
+	
+transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+}
+.social a:hover i.fa-at{
+	transition:  .6s ease-in;
+	background: #D44638; 
+	color:white;
+	border: 3px solid #fd8e8e;
+	transform: rotate(360deg);
+    -webkit-transform: rotate(360deg); 
+}
+.social a:hover i.fa-instagram{
+	transition:  .6s ease-in;
+	background: linear-gradient(#F58529 20%, #FEDA77 50%, #DD2A7B 75%, #8134AF 90%, #515BD4)
+; 
+	transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+	border: 3px solid #fd8e8e; 
+	color:white;
+	
+}
+
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1 style="color:#d6cacd;">CHARANI'S LABEL</h1>
+      
+        <div class="topnav">
+            <a class="active" href="#search">SEARCH</a>
+            <a href="#">New Arrivals</a>
+            <a href="#">Best Sellers</a>
+            <a href="#">On Sale</a>
+            <div class="topnav-right">
+            <a href="#favorites">Favorites</a>
+            <a href="#about">YOUR ORDERS</a>
+        </div>
+    </header>
+    
+    <section>
+      <h2>WELCOME TO MY CLOSET!!</h2>
+      <h2>STAY  A WHILE AND SHOP...</h2>
+      
+      <div>
+        <div class='parent flex-parent'>
+            <div class='child flex-child' ><img src="ethenic.jpg" alt="Bakery item"></div>
+            <div class='child flex-child' ><img src="western.jpg" alt="Bakery item"></div>
+            <div class='child flex-child' ><img src="accessories.jpg" alt="Bakery item"></div>
+        </div>
+      </div>
+      <div>
+        <div class='parent flex-parent'>
+            <div class='child flex-child' id="price1">ETHENIC WEAR</div>
+            <div class='child flex-child' id="price2">WESTERN WEAR</div>
+            <div class='child flex-child' id="price3">ACCESSORIES</div>
+        </div>
+      </div>
+      <div>
+        <div class='parent flex-parent'>
+            <div class='child flex-child'><button>Let's Go</button></div>
+            <div class='child flex-child'><button>Let's Go</button></div>
+            <div class='child flex-child'><button>Let's Go</button></div>
+        </div>
+      </div>
+    </section>
+        <footer>
+            <section class="social">
+                <a href="">
+                    <i class="fas fa-at"></i>
+                </a>
+                <a href="">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="">
+                    <i class="fab fa-instagram"></i>
+                </a>
+
+                <a href="">
+                    <i class="fab fa-telegram-plane"></i>
+                </a>
+            </section>
+            <p>Copyright &copy; Charani'slabel pvt ltd 2024</p>
+
+      </footer>
+  </body>
